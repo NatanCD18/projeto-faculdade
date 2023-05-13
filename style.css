@@ -1,0 +1,353 @@
+*{
+    font-family: 'Archivo', sans-serif,'Josefin Sans', sans-serif,'Oxygen', sans-serif,'Poppins', sans-serif;
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-image: url(imagens/grama-campo-de-futebol.png);
+    background-size: cover;
+    background-position: center;
+    
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+}
+
+.cabecario{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 20px white;
+}
+.cabecario .logo{
+    width: 200px;
+    height: 150px;
+}
+.cabecario .menu{
+    list-style: none;
+}
+.cabecario .menu a{
+    margin: 50px;
+    font-size: 25px;
+    border-radius: 30px;
+    text-decoration:none;
+    color: white;
+    transition: 0.7s;
+    padding: 20px 30px;
+}
+.cabecario .menu a:hover{
+    background-color: white;
+    color: black;
+}
+.conteiner{
+    border:25px solid white;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: black;
+    height: 1100px;
+    width: 1300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.conteiner .home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.conteiner .home h2,p{
+    color: white;
+}
+.conteiner .home .titu1{
+    font-size: 100px;
+    margin-left: 25px;
+    height: 70px;
+}
+.conteiner .home .pa1{
+    font-size: 40px;
+    height: 400px;
+    width: 600px;
+    margin-left: 100px;
+}
+.conteiner .home .imgcampo{
+    transform: rotate(90deg);
+}
+.conteiner .home2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.conteiner .home2 .titu2{
+    color: white;
+    font-size: 80px;
+    margin-left: 25px; 
+}
+.conteiner .home2 .novidades{
+    color: white;
+    font-size: 40px;
+    margin-left: 100px; 
+    height: 200px;
+    width: 600px;
+    margin-left: 100px;
+}
+.conteiner .home2 .imgnew{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 150px;
+}
+.jogcont{
+    border:25px solid white;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: black;
+    width: 1300px;
+    margin-top: 40px;
+}
+.jogcont .jogmenu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 600px;
+}
+.jogcont .jogmenu .jogtitu{
+    color: white;
+    font-size: 100px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.jogcont .jogmenu .amessi{
+    font-size: 40px;
+    color:white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.jogcont .jogmenu .manuten{
+    font-size: 25px;
+    color:white;
+    margin-left: 100px;
+    height: 300px;
+}
+.jogcont .jogmenu .infor{
+    font-size: 15px;
+    color:white;
+    margin-left: 100px;
+
+}
+.jogcont .jogmenu .imgjog{
+    height: 400px;
+    width: 350px;
+}
+.contmenu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    margin: 30px;
+}
+.contmenu .emailmenu{
+    border: solid white 10px;
+    background-color: black;
+    border-radius: 30px;
+    height: 150px;
+    width:700px;
+
+}
+.contmenu .emailmenu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contmenu .emailmenu h3, form{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.contmenu .emailmenu h3{
+    margin-top: 10px;
+}
+.contmenu .emailmenu form{
+    margin-top: 10px;
+}
+#email{
+    border-radius: 10px;
+    height: 35px;
+    width: 250px;
+    font-family: inherit;
+    padding-left: 10px;
+    font-size: 17px;
+}
+#botao{
+    font-family: inherit;
+    margin-left: 10px;
+    height: 25px;
+    width: 50px;
+    font: bold;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.conteimessi{
+    border:25px solid white;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: black;
+    height: 1500px;
+    width: 1300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.conteimessi .titomessi{
+    display: flex;
+    flex-direction: row;    
+}
+.titomessi h2{
+    font-size: 40px;
+    color:white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.titomessi img{
+    width: 70px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.conteimessi .apremessi{
+    display: flex;
+    flex-direction: row;  
+    margin-top: 20px; 
+}
+.apremessi p{
+    font-size: 25px;
+    margin-left: 100px;
+    width: 700px;
+    
+}
+.apremessi img{
+    width: auto;
+    height: 650px;
+}
+.estatmessi{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    margin-top: 30px;
+
+}
+.tituest{
+    color: white;
+    margin: 0 auto;
+    margin-bottom:20px; 
+}
+.tableme{
+    color: white;
+    border-radius: 15px;
+    background-color:white;
+    width: 500px;
+    margin: 0 auto;
+}
+.tableme th, td, tr{
+    background-color: black;
+    border-radius: 10px;
+}
+.titutrof{
+    color: white;
+    margin: 0 auto;
+}
+.listtrof{
+    color: white;
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.conteitime{
+    border:25px solid white;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: black;
+    height: 700px;
+    width: 1300pmx;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.conteitime .imgmanu{
+    width: 700px;
+    height: auto;
+    border: solid 5px;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+.conteicont{
+    border:25px solid white;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: black;
+    height: 700px;
+    width: 1300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.conteicont .titucont{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.continfo{
+    margin: 0 auto;
+    font-size: 24px;
+    margin-top: 80px;
+
+}
+.cont h3, p, legend{
+    color: white;
+    margin: 3px;
+}
+.cont textarea{
+    width: 300px;
+    resize: none;
+}
+.formcont{
+    width: 600px;
+    border-radius: 30px;
+    height: 300px;
+}
+
+.formcont2{
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+.formcont2 input, select{
+    width: 300px;
+    font-size: 15px
+}
+.criador{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    font-size: 20px;
+}
+.fontes{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-top:10px;
+}
